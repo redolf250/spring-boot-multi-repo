@@ -15,7 +15,7 @@ on:
 
 jobs:
 
-  test:
+  clean:
     runs-on: ubuntu-latest
     permissions:
       contents: read
