@@ -3,8 +3,13 @@ name: Master Branch CI
 on:
   push:
     branches: [ "master" ]
+  workflow_dispatch: # Manually triggered workflow
+    inputs:
+      action:
+        description: 'Action to perform'
+        required: true
+        default: 'none'
 jobs:
-
   build:
     runs-on: ubuntu-latest
     permissions:
