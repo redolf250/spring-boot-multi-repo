@@ -10,5 +10,11 @@
         <module name="spring-boot-graphql.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="misc.app.main" target="17" />
+      <module name="misc.app.test" target="17" />
+      <module name="misc.main" target="17" />
+      <module name="misc.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
