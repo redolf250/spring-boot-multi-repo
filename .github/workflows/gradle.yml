@@ -27,7 +27,7 @@ jobs:
         run: pwd
         
       - name: Navigate to Project Directory
-        run: cd ./spring-boot-multi-repo/spring-boot-graphql
+        run: cd spring-boot-multi-repo
 
       - name: List Files
         run: ls
