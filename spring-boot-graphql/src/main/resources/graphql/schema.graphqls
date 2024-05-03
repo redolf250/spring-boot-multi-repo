@@ -1,0 +1,24 @@
+type Book {
+    id: ID
+    name: String
+    country: String
+    contact: String
+    genre: String
+}
+
+type Query{
+    findAllBooks: [Book]
+    findBookById(id: ID): Book
+}
+
+input BookInput{
+    name: String
+    country: String
+    contact: String
+    genre: String
+}
+
+type Mutation{
+    deleteBook(id: ID): Book
+#    saveBook(input: Book!): Book
+}
