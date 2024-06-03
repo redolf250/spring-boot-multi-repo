@@ -27,7 +27,7 @@ public class BookGraphQLController {
     }
 
 
-    @MutationMapping
+//    @MutationMapping
     private Book saveBook(@Argument(name = "input") Book input){
         return service.saveBook(input);
     }
