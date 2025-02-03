@@ -16,6 +16,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/database-locks" />
+        <option name="gradleHome" value="C:/Program Files/gradle-7.4.2-all/gradle-7.4.2" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
@@ -31,6 +32,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring-boot-graphql" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/stored-procedure" />
+        <option name="gradleHome" value="C:/Program Files/gradle-7.4.2-all/gradle-7.4.2" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/stored-procedure" />
           </set>
         </option>
       </GradleProjectSettings>
