@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/database-locks.main.iml" filepath="$PROJECT_DIR$/.idea/modules/database-locks.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/misc.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/misc.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/misc.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/misc.app.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-session/spring-session.iml" filepath="$PROJECT_DIR$/spring-session/spring-session.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stored-procedure.main.iml" filepath="$PROJECT_DIR$/.idea/modules/stored-procedure.main.iml" />
     </modules>
   </component>

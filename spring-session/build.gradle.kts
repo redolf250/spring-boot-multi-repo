@@ -22,6 +22,9 @@ dependencies {
     implementation("org.springframework.session:spring-session-core")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    runtimeOnly("com.mysql:mysql-connector-j")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation ("org.springframework.session:spring-session-jdbc")
 }
 
 tasks.withType<Test> {

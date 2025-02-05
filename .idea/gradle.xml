@@ -45,6 +45,15 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-session" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-session" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/stored-procedure" />
         <option name="gradleHome" value="C:/Program Files/gradle-7.4.2-all/gradle-7.4.2" />
         <option name="gradleJvm" value="#JAVA_HOME" />
