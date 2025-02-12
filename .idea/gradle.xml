@@ -10,7 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/database-locks" />
+            <option value="$PROJECT_DIR$/spring-ai" />
             <option value="$PROJECT_DIR$/spring-boot-graphql" />
+            <option value="$PROJECT_DIR$/stored-procedure" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -41,6 +44,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring-boot-graphql" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-neo4j" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-neo4j" />
           </set>
         </option>
       </GradleProjectSettings>
