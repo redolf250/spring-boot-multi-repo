@@ -9,3 +9,7 @@
 
 rootProject.name = 'misc'
 include('spring-boot-graphql')
+include("database-locks")
+include("spring-ai")
+include("stored-procedure")
+
