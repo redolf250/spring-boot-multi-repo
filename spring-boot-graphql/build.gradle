@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'maven-publish'
     id 'org.springframework.boot' version '3.2.5'
     id 'io.spring.dependency-management' version '1.1.4'
 }
@@ -31,6 +32,18 @@ dependencies {
     testImplementation 'org.springframework:spring-webflux'
     testImplementation 'org.springframework.graphql:spring-graphql-test'
 }
+
+//publish{
+//    repositories {
+//        maven {
+//            url = 'http://localhost:8081/repository/maven-releases/'
+//            credentials {
+//                username = 'admin'
+//                password = 'redolf250'
+//            }
+//        }
+//    }
+//}
 
 tasks.named('test') {
     useJUnitPlatform()
